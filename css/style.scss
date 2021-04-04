@@ -355,6 +355,10 @@ nav {
         letter-spacing: 2px;
         margin-bottom: 3rem;
     }
+    &__about {
+        font-size: 25px;
+        margin: 10px 0 25px 20px;
+    }
 }
 
 // CONTACT
@@ -390,6 +394,7 @@ nav {
     &__title,
     &__sub-title {
         line-height: 2;
+        text-transform: uppercase;
     }
     &__title {
         font-size: 2.5rem;
@@ -432,6 +437,7 @@ nav {
             line-height: 1.5;
             display: block;
             padding-bottom: 0.5rem;
+            text-align: justify;
         }
         &--link {
             padding-top: 0.5rem;
